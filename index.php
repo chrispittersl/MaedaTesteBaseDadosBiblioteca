@@ -30,13 +30,13 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item" id="about-nav">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">Sobre</a>
                     </li>
                     <li class="nav-item" id="services-nav">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Serviços</a>
                     </li>
                     <li class="nav-item" id="contact-nav">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
