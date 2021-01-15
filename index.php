@@ -77,6 +77,7 @@
 						$stmt->execute();
                         while($row = $stmt->fetch(PDO::FETCH_ASSOC))
                         {
+							if($row['associado']){
                 	?>
                           <tr>
                               <td><?php echo $row['livro'];?></td>
@@ -84,9 +85,10 @@
 							  <td><?php echo $row['autor'];?></td>
 							  <td><?php echo $row['assunto'];?></td>
 							  <td><?php echo $row['biblio'];?></td>
-							  <td><a href="" class="btn btn-danger btn-block" class="livro" id="<?php echo $row['livro']; ?>">X</a></td>
+							  <td><a href="" class="btn btn-danger btn-block livro" id="<?php echo $row['livro']; ?>">X</a></td>
                           </tr>
-                	<?php        
+					<?php      
+							}  
                         }
                 	?>
 					</tbody>
